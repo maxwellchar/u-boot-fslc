@@ -1,0 +1,21 @@
+if TARGET_MX6ULL_MINI_ALT
+
+config SYS_BOARD
+	default "mx6ull_mini_alt"
+
+config SYS_VENDOR
+	default "freescale"
+
+config SYS_CONFIG_NAME
+	default "mx6ull_mini_alt"
+
+config IMX_CONFIG
+	default "board/freescale/mx6ull_mini_alt/imximage.cfg"
+
+config TARGET_MX6ULL_ALT_EMMC
+	bool "Select for the board with eMMC"
+
+config SYS_TEXT_BASE
+	default 0x87800000
+
+endif
